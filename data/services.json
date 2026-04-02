@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Buyee",
+    "url": "https://buyee.jp",
+    "fee": "300-500 yen/item + 200 yen bank transfer fee",
+    "supported": ["Yahoo Auctions", "Mercari", "Rakuten", "Amazon JP", "ZozoTown", "Yahoo Shopping"],
+    "shipping": ["DHL", "FedEx", "EMS", "Surface", "ePacket"],
+    "usTariff": "Ships via DHL/FedEx (handles customs declarations)",
+    "strengths": ["Widest site coverage", "Official Yahoo/Mercari partner", "Fast processing"],
+    "weaknesses": ["Fees add up on multiple items", "Consolidation fee extra"],
+    "lastVerified": "2025-08-01"
+  },
+  {
+    "name": "ZenMarket",
+    "url": "https://zenmarket.jp",
+    "fee": "300 yen/item",
+    "supported": ["Yahoo Auctions", "Mercari", "Rakuten", "Amazon JP", "Any JP site via URL"],
+    "shipping": ["DHL", "FedEx", "EMS", "Surface", "SAL", "ePacket"],
+    "usTariff": "Standard international shipping",
+    "strengths": ["Low per-item fee", "Any-URL purchasing", "Good English support", "100 JPY referral bonus"],
+    "weaknesses": ["Storage limited to 45 days free"],
+    "lastVerified": "2025-08-01"
+  },
+  {
+    "name": "FromJapan",
+    "url": "https://www.fromjapan.co.jp",
+    "fee": "Plan A: no charge (higher shipping markup) / Plan B: 200 yen/item (lower shipping)",
+    "supported": ["Yahoo Auctions", "Mercari", "Rakuten", "Amazon JP", "and more"],
+    "shipping": ["EMS", "SAL", "Surface", "DHL", "FedEx"],
+    "usTariff": "Standard international shipping",
+    "strengths": ["Two pricing plans to choose from", "Good for heavy/large items on Plan A"],
+    "weaknesses": ["Confusing pricing structure", "Slower processing than competitors"],
+    "lastVerified": "2025-08-01"
+  },
+  {
+    "name": "Tenso",
+    "url": "https://www.tenso.com",
+    "fee": "Forwarding only — 0 yen service fee (shipping cost only)",
+    "supported": ["Any JP site that ships domestically (you order yourself, Tenso forwards)"],
+    "shipping": ["EMS", "DHL", "FedEx", "Surface", "SAL", "ECMS"],
+    "usTariff": "Ships via selected carrier",
+    "strengths": ["No service fee", "Cheapest for forwarding", "Good for stores that don't ship overseas"],
+    "weaknesses": ["Forwarding only (must buy yourself)", "Japanese address provided — you handle ordering"],
+    "lastVerified": "2025-08-01"
+  },
+  {
+    "name": "White Rabbit Express",
+    "url": "https://www.whiterabbitexpress.com",
+    "fee": "10-15% commission on item price",
+    "supported": ["Any JP site", "Physical stores", "Events", "Custom requests"],
+    "shipping": ["DHL", "EMS", "FedEx"],
+    "usTariff": "Ships via DHL/FedEx (handles customs declarations)",
+    "strengths": ["Personal shopper service", "Handles complex requests", "Buys from physical stores"],
+    "weaknesses": ["Most expensive option", "Best for hard-to-find items only"],
+    "lastVerified": "2025-08-01"
+  },
+  {
+    "name": "Neokyo",
+    "url": "https://neokyo.com",
+    "fee": "250 yen/item",
+    "supported": ["Yahoo Auctions", "Mercari", "Rakuten", "Surugaya", "Mandarake"],
+    "shipping": ["DHL", "EMS", "Surface", "ePacket"],
+    "usTariff": "Standard international shipping",
+    "strengths": ["Low fees", "Specialized in anime/manga/figure buying", "Good user reviews"],
+    "weaknesses": ["Smaller operation", "Fewer shipping options than Buyee"],
+    "lastVerified": "2025-08-01"
+  }
+]

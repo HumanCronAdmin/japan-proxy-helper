@@ -1,0 +1,16 @@
+{
+  "name": "Japan Proxy Helper",
+  "short_name": "JP Proxy",
+  "description": "Compare Japanese proxy buying and forwarding services with troubleshooting guides for overseas buyers.",
+  "start_url": "/japan-proxy-helper/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

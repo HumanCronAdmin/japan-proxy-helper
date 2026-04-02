@@ -1,0 +1,73 @@
+/* Reset & Base */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f5f5f5;color:#333;line-height:1.6}
+a{color:#e94560;text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Header */
+.header{background:#1a1a2e;color:#fff;padding:20px 16px;text-align:center}
+.header h1{font-size:1.4rem;margin-bottom:4px}
+.header p{font-size:0.85rem;color:#aaa}
+
+/* Tabs */
+.tabs{display:flex;gap:0;background:#16213e;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tabs button{flex:1;min-width:120px;padding:12px 8px;border:none;background:transparent;color:#8892b0;font-size:0.82rem;font-weight:600;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap;min-height:44px;transition:color .2s,border-color .2s}
+.tabs button.active{color:#e94560;border-bottom-color:#e94560}
+.tabs button:hover{color:#fff}
+
+/* Main */
+.main{max-width:800px;margin:0 auto;padding:16px}
+
+/* Cards */
+.card{background:#fff;border-radius:12px;padding:16px;margin-bottom:16px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.card h3{font-size:1.1rem;margin-bottom:4px;color:#1a1a2e}
+.card .url{font-size:0.8rem;color:#e94560;margin-bottom:10px;display:inline-block}
+.card .badge-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.badge{display:inline-block;padding:3px 8px;border-radius:4px;font-size:0.72rem;font-weight:600}
+.badge-site{background:#e8f4fd;color:#1e6091}
+.badge-ship{background:#fef3c7;color:#92400e}
+.card .fee{font-size:0.88rem;font-weight:600;color:#333;margin-bottom:8px;padding:8px 10px;background:#f8f9fa;border-radius:6px}
+.card .detail{font-size:0.82rem;color:#555;margin-bottom:6px}
+.card .detail strong{color:#333}
+.card .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.card .pros-cons div{font-size:0.8rem}
+.card .pros-cons ul{list-style:none;padding:0}
+.card .pros-cons li{padding:2px 0;padding-left:18px;position:relative}
+.card .pros-cons li::before{position:absolute;left:0}
+.pro li::before{content:'✓';color:#16a34a}
+.con li::before{content:'✗';color:#dc2626}
+.card .verified{font-size:0.7rem;color:#999;margin-top:8px;text-align:right}
+
+/* Accordion */
+.accordion{margin-bottom:12px}
+.accordion-btn{width:100%;padding:14px 16px;background:#fff;border:1px solid #e5e7eb;border-radius:10px;cursor:pointer;text-align:left;font-size:0.95rem;font-weight:600;color:#1a1a2e;display:flex;align-items:center;gap:10px;min-height:44px;transition:background .2s}
+.accordion-btn:hover{background:#f9fafb}
+.accordion-btn .icon{font-size:1.2rem}
+.accordion-btn .arrow{margin-left:auto;transition:transform .2s;font-size:0.7rem;color:#999}
+.accordion-btn.open .arrow{transform:rotate(180deg)}
+.accordion-body{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.accordion-body.open{max-height:600px}
+.accordion-body ol{padding:12px 16px 12px 32px;background:#fff;border:1px solid #e5e7eb;border-top:none;border-radius:0 0 10px 10px}
+.accordion-body li{padding:6px 0;font-size:0.85rem;color:#555}
+
+/* US Import Guide */
+.guide-section{background:#fff;border-radius:12px;padding:16px;margin-bottom:16px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.guide-section h3{font-size:1rem;color:#1a1a2e;margin-bottom:8px;border-bottom:2px solid #e94560;padding-bottom:6px}
+.guide-section p,.guide-section li{font-size:0.85rem;color:#555;margin-bottom:6px}
+.guide-section ul{padding-left:20px}
+.alert-box{background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:12px;margin-bottom:12px;font-size:0.85rem;color:#991b1b}
+.alert-box strong{color:#7f1d1d}
+.tip-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:12px;font-size:0.85rem;color:#166534}
+
+/* Disclaimer */
+.disclaimer{font-size:0.72rem;color:#999;text-align:center;padding:16px;max-width:600px;margin:0 auto}
+
+/* Media query 480px+ */
+@media(min-width:480px){
+  .header h1{font-size:1.6rem}
+  .tabs button{font-size:0.88rem}
+  .card .pros-cons{grid-template-columns:1fr 1fr}
+}
+@media(max-width:479px){
+  .card .pros-cons{grid-template-columns:1fr}
+}

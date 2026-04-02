@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Lost Package",
+    "icon": "📦",
+    "steps": [
+      "Contact your proxy service first — they can trace the package on their end.",
+      "Check tracking number on the carrier website (DHL, FedEx, EMS, etc.).",
+      "If no update for 7+ days, ask your proxy to file a trace request with the carrier.",
+      "File a claim with the shipping carrier if the package is confirmed lost.",
+      "If you purchased proxy insurance, submit your claim through the proxy's insurance process."
+    ]
+  },
+  {
+    "title": "Customs Hold",
+    "icon": "🛃",
+    "steps": [
+      "Check your tracking — customs holds usually show as 'Held at customs' or 'Awaiting clearance'.",
+      "Provide the commercial invoice or purchase receipt to customs if requested.",
+      "Contact the shipping carrier for customs clearance assistance.",
+      "Pay any assessed duties or taxes — DHL/FedEx typically send an invoice.",
+      "For future shipments, ensure accurate value declarations to avoid delays."
+    ]
+  },
+  {
+    "title": "Wrong Item Received",
+    "icon": "❌",
+    "steps": [
+      "Take clear photos of what you received vs. what you ordered.",
+      "Contact your proxy within 3 days of delivery — most have strict claim windows.",
+      "Request a return or refund through the proxy's dispute process.",
+      "The proxy will contact the original seller on your behalf.",
+      "Keep the item and all packaging until the dispute is resolved."
+    ]
+  },
+  {
+    "title": "Damaged Item",
+    "icon": "💔",
+    "steps": [
+      "Photograph the damage immediately during unboxing (video is even better).",
+      "File a damage claim with your proxy service.",
+      "If you purchased shipping insurance, submit photos as evidence for the claim.",
+      "Contact the carrier directly if the proxy does not resolve it.",
+      "Keep all original packaging — carriers may require inspection."
+    ]
+  },
+  {
+    "title": "Shipping Delays",
+    "icon": "⏳",
+    "steps": [
+      "Check carrier tracking for the latest status update.",
+      "Contact your proxy for an update if tracking hasn't moved in 5+ days.",
+      "Be aware of seasonal delays: Dec-Jan (holidays) and late Apr-May (Golden Week).",
+      "EMS and SAL are slower than DHL/FedEx — expect 1-4 weeks depending on method.",
+      "Consider choosing DHL or FedEx next time for faster, more reliable delivery."
+    ]
+  },
+  {
+    "title": "Fee Disputes",
+    "icon": "💰",
+    "steps": [
+      "Screenshot the original listing price and any fee estimates shown before purchase.",
+      "Compare with your final invoice from the proxy.",
+      "Contact support with your evidence — most proxies have live chat.",
+      "If chat support doesn't resolve it, escalate via email with screenshots attached.",
+      "Check the proxy's terms of service for their dispute resolution policy."
+    ]
+  }
+]
